@@ -1,6 +1,7 @@
 function Cat() {
 	const name="JJLee";
 	this.stomach = [];
+	
 }
 
 Cat.prototype.eat = funtion(mouse) {
