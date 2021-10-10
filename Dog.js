@@ -1,6 +1,6 @@
-import chalk from 'chalk';
+var chalk = require('chalk');
 function Dog(name) {
-	const name=name
+	this.name=name
 	this.stomach = [];	
 }
 
@@ -13,4 +13,4 @@ Dog.prototype.sayHi = function() {
 	console.log(`Hi! I am a dig. My name is ${chalk.red(this.name)}`);
 }
 
-export default Dog;
+module.exports = Dog;
