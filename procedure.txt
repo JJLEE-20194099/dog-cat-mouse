@@ -5,4 +5,7 @@ Quy trình làm việc với Git
 	+ push code lên chính branch ấy (không phải master)
 	+ Tạo ra 1 cái pull request trên Github
 	+ leader hoặc cái thành viên khác vào review code
+		- review code online(github)
+		- fetch branch into local to test offline
+		- approve the pull request
 	+ Nếu đồng ý code thì sẽ merge code vào master
